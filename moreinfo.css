@@ -36,3 +36,14 @@ a:hover, a:active{
   background-color: burlywood;
   z-index: -1;
 }
+
+.center{
+        text-align: center;
+        }
+            
+.center-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%; /* Optional: makes image smaller */
+        }
