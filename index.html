@@ -1,58 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Ashfaq Tahmeed" />
-    <meta name="description" content="This is my first page I have created" />
-    <link rel="icon" /* relation icon */
-    href="4373229_html5_logo_logos_icon.png" type="image/x-icon" />
+    <meta charset="UTF-8"/>
+    <!--name is for attribute not for actual name sake, content is for anything you want to put it there like names etc.-->
+    <meta name="name" content="Muhammad Ashfaq Thameed"/>
+    <meta name="description" content="Blog" />
     <title>My firsrt web page</title>
-    <link rel="stylesheet" href="main.css" type="text/css" />
+    <!--CSS and tab icon part-->   
+      <!--for the top tab icon-->
+      <link 
+        rel="icon"
+        href="Favicon Football Elements with Initials in Green and Gold.png"
+        type="image/x-icon"
+      />
+      <!--for the dark theme and mergin effects to apply-->
+      <link 
+        rel="stylesheet" 
+        href="main.css" 
+        type="text/css" 
+      />
+    <!--css and tab icon part end-->
+  
   </head>
+  
   <body>
-    <h1>Tor Name Ki Re??? (h1)</h1>
-    <p>Bro eta amar 1st web page!!!</p>
-
+    <!--below two lines in div tag are for the mergins to initialize that I wrote in the main.css file-->
+    <div class="margin-line"></div>
+    <div class="top-line"></div>
+    
+    <h1>  Hello liverpool Fans!!! (h1)</h1>
+    <p>welcome to my page everyone.<br />this is my first time trying html.</p>
+    <br>Contents:
+    
+    <!--creating Index part at the top of the page-->
+    <hr>
+      <nav>
+        <ul type = "circle">
+          <li><a href ="#selfdescrip">About me</a></li>
+          <li><a href ="#sparetimepref"</a>Spare time preference</li>
+          <li><a href="#football&more">Football & more content</a></li>
+        </ul>
+      </nav>
+    <hr>
+    <!--creating Index end-->
+    
+    <!--used section tag to create the index seen at top of the main page-->
+    <!--id helps to create the relative link(same folder/file links)-->
+    <section id="selfdescrip"> 
+      <h2> Things About myself!!! (h2) </h2>
+        <p>
+          my name is Nasif <br />
+          I am a computer science student <br />I am a 23 year old computer science
+          student <br />My intials are
+          <abbr title="Muhammad Ashfaq Tahmeed">MAT</abbr>
+        </p>
+      <p>My adreess:
+        <adress>
+          <br />present adress:Mirpur-14, Kafrul, Dhaka-1206. <br />permanent
+          adress:Cumilla, P.O: Laksam, Village: Poschim Gaon.<br />Country:
+          Bangladesh
+        </adress>
+      </p>
+    </section>
+    
     <hr />
-    <h2>Oh accha name bolbi na? (h2)</h2>
-    <p>ans: amar ki jai ase na tor name na janle</p>
-
-    <hr />
-    <h3>I have no girlfriends. why? (h3)</h3>
-    <p>ans: I really don't care</p>
-
-    <br />
-    <hr />
-    <h3>I like watching football. why? (h3)</h3>
-    <p>ans: It excites me.</p>
-    <pre><strong>My favourite teams are the following:</strong> </pre>
-    <ol>
-      <li>Liverpool FC</li>
-      <li>Real Madrid C.F.</li>
-      <li>FC. Barcelona</li>
-      <li>FC. Bayern Munich</li>
-    </ol>
-    <hr />
-    <h3>What I love doing in my spare time:</h3>
-    <p>
-      I think having a hobby is very important, <br />
-      so I try to indulge myself in more hobbies. the more hobbies the better.
-      <br />
-      so now I have signed myself up for learning HTML as I need a Job very
-      quickly.<br><strong>Free code academy is helping in learning the HTML stuff for free!!!</strong>
-      <br>So massive Thank you to Free Code Academy for this oppertunity.
-    </p>
+    
+    <section id = "sparetimepref">
+      <h3>What I love doing in my spare time!!! (h3)</h3>
+        <p>
+          I think having a hobby is very important, <br />
+          so I try to indulge myself in more hobbies. the more hobbies the better.
+          <br />
+          so now I have signed myself up for learning HTML as I need a Job very
+          quickly.<br /><strong
+            >Free code academy is helping in learning the HTML stuff for
+            free!!!</strong>
+          <br />So massive Thank you to Free Code Academy for this oppertunity.
+          <br>So for the purpose of learning I wanted to talk about football in my testing(learning page).
+        </p>
+    </section>
 
     <hr>
-    <h2>Things About myself</h2>
-    <p>
-      my name is Nasif <br> I am a computer science student 
-      <br>I am a 23 year old computer science student 
-      <br>My intials are <abbr title="Muhammad Ashfaq Tahmeed">MAT</abbr>
-    </p>
-    <p>My adreess:</p>
-    <adress>
-      <br>present adress:Mirpur-14, Kafrul, Dhaka-1206. <br>permanent adress:Cumilla, P.O: Laksam, Village: Poschim Gaon.<br>Country: Bangladesh 
-    </adress>
+    
+    <section id ="football&more">
+      <h3>I like watching football. why?</h3>
+        <p>ans: It excites me.</p>
+
+      <hr>
+
+      <p><strong>My favourite teams are the following:</strong></p>
+        <ol>
+          <li>Liverpool FC</li>
+          <li>Real Madrid C.F.</li>
+          <li>FC. Bayern Munich</li>
+        </ol>
+    
+      <hr>
+
+      <p><strong>The teams that totally dislike:</strong><p>    
+        <ul type ="square">
+            <li>Manchester City</li>
+            <li>Manchester United</li>
+            <li>FC.Barcelona</li>
+        </ul>
+    
+      <hr>
+    
+      <h3>What to see more of my contents?</h3>
+        <p>
+          To read more content about me and football visit <strong><a href="me&football.html">more</a></strong>.
+        </p>
+    </section>
+  
   </body>
+
 </html>

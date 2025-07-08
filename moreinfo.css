@@ -4,7 +4,7 @@ html{
 }
 body{
     background-color: black; 
-     font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: beige;
     margin-left: 70px; /*add space for the vertical line*/
     padding: auto;
